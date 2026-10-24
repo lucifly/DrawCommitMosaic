@@ -1,0 +1,26 @@
+name: Bug report / 问题反馈
+description: 报告参数、日期、兼容性或生成结果问题。
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: 请提供脱敏后的信息，不要提交访问令牌、完整 Git 配置或私人仓库地址。
+  - type: textarea
+    id: environment
+    attributes:
+      label: 运行环境
+      description: 操作系统、bash --version、git --version，以及使用的命令。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+    validations:
+      required: true

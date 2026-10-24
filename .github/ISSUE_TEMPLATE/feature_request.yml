@@ -1,0 +1,16 @@
+name: Feature request / 功能建议
+description: 描述希望支持的图案、输入方式或使用场景。
+title: "[Feature] "
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 希望的行为
+    validations:
+      required: true
